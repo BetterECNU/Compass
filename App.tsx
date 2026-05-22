@@ -46,8 +46,8 @@ const App: React.FC = () => {
         {/* Header / Status Bar */}
         <header className={`fixed top-0 w-full z-40 px-6 py-4 flex justify-between items-center transition-opacity duration-700 ${mounted ? 'opacity-100' : 'opacity-0'}`}>
           <div className="flex items-center space-x-3 text-slate-800 hover:text-cyan-600 dark:hover:text-cyan-300 dark:text-white transition-colors cursor-default">
-            <Map className="w-8 h-8" />
-            <span className="font-display font-bold text-xl tracking-wider">OurTaiko</span>
+            <GraduationCap className="w-8 h-8" />
+            <span className="font-display font-bold text-xl tracking-wider">ECNU·驿站</span>
           </div>
 
           <div className="flex items-center space-x-6">
@@ -67,11 +67,11 @@ const App: React.FC = () => {
           {/* Hero Section */}
           <div className={`text-center mb-16 transition-all duration-1000 transform ${mounted ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
             <h1 className="bg-clip-text bg-gradient-to-b from-slate-900 dark:from-white via-slate-800 dark:via-white to-slate-500 dark:to-slate-400 mb-4 font-display font-bold text-transparent text-5xl md:text-7xl tracking-tight">
-              {greeting}, Donder.
+              {greeting}, Student.
             </h1>
             <p className="flex justify-center items-center gap-2 mx-auto max-w-2xl font-light text-slate-500 dark:text-slate-400 text-lg md:text-xl">
               <span className="bg-cyan-500 rounded-full w-2 h-2 animate-pulse"></span>
-              Managed by OurTaiko
+              Managed by BetterECNU
             </p>
           </div>
 
@@ -120,9 +120,9 @@ const App: React.FC = () => {
 
         <footer className="bottom-0 z-0 fixed bg-gradient-to-t from-slate-100 dark:from-[#0f172a] to-transparent py-6 w-full text-slate-500 text-xs text-center pointer-events-none">
           <div className="flex justify-center items-center gap-2 opacity-70">
-            <span className="font-semibold text-cyan-700 dark:text-cyan-800/80 tracking-widest">OurTaiko</span>
+            <span className="font-semibold text-cyan-700 dark:text-cyan-800/80 tracking-widest">BetterECNU</span>
             <span className="bg-slate-400 dark:bg-slate-700 rounded-full w-1 h-1"></span>
-            <span>Designed for Donders</span>
+            <span>Designed for ECNU Students</span>
           </div>
         </footer>
       </div>

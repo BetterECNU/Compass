@@ -1,130 +1,74 @@
 [
   {
-    "title": "Our GitHub",
-    "url": "https://github.com/OurTaiko",
-    "category": "开发",
-    "icon": "Github",
-    "description": "我们的 GitHub",
+    "title": "BetterECNU GitHub",
+    "url": "https://github.com/BetterECNU",
+    "category": "开源组织",
+    "icon": "https://avatars.githubusercontent.com/u/229353891?s=512",
+    "description": "BetterECNU 组织的 GitHub",
     "color": "from-gray-700 to-gray-900"
   },
   {
-    "title": "太鼓之达人 Rating",
-    "url": "https://rating.ourtaiko.org/",
+    "title": "ECNU-minus GitHub",
+    "url": "https://github.com/ECNU-minus",
+    "category": "开源组织",
+    "icon": "https://avatars.githubusercontent.com/u/225039193?s=512",
+    "description": "ECNU-minus 组织的 GitHub",
+    "color": "from-gray-700 to-gray-900"
+  },
+  {
+    "title": "ECNU·课栈",
+    "url": "https://courses.myecnu.org",
     "category": "工具",
     "icon": "Figma",
-    "description": "Rating算法为咕咕算法",
+    "description": "华东师范大学课程共享计划",
     "color": "from-purple-500 to-pink-500"
   },
   {
-    "title": "TJA Analyzer",
-    "url": "https://tjaanalyzer-ja.ckq.me/",
-    "category": "工具",
-    "icon": "https://tjaanalyzer-ja.ckq.me/icon_simple.png",
-    "description": "TJA 文件的可视化分析工具",
+    "title": "Broken Life",
+    "url": "https://broken.life",
+    "category": "友链",
+    "icon": "Triangle",
+    "description": "zeyi 的个人博客",
     "color": "from-gray-900 to-black"
   },
   {
-    "title": "Donder 查分器@陆陆侠",
-    "url": "https://donder-tool.llx.life/",
-    "category": "工具",
-    "icon": "https://donder-tool.llx.life/img/icon.webp",
-    "description": "查分器",
+    "title": "公共体育部",
+    "url": "https://peclub.ecnu.edu.cn",
+    "category": "官方",
+    "icon": "https://sso.ecnu.edu.cn/linkid/api/image/download/login_favicon.png",
+    "description": "公体的网站，在上面预约体测",
     "color": "from-pink-400 to-rose-500"
   },
   {
-    "title": "Donder 查分器@香草",
-    "url": "https://prober.ourtaiko.org/",
-    "category": "工具",
-    "icon": "https://donder-tool.llx.life/img/icon.webp",
-    "description": "额外提供全连表查询",
+    "title": "公共数据库",
+    "url": "https://portal2023.ecnu.edu.cn/",
+    "category": "官方",
+    "icon": "https://sso.ecnu.edu.cn/linkid/api/image/download/login_favicon.png",
+    "description": "华师大公共数据库",
     "color": "from-blue-400 to-blue-600"
   },
   {
-    "title": "Taiko Viewer",
-    "url": "https://viewer.sakura-bot.cn/",
-    "category": "工具",
-    "icon": "https://viewer.sakura-bot.cn/icon.png",
-    "description": "Sakura的太鼓网站，提供论坛、歌曲列表等功能",
+    "title": "大夏学堂",
+    "url": "https://elearning.ecnu.edu.cn/",
+    "category": "官方",
+    "icon": "https://sso.ecnu.edu.cn/linkid/api/image/download/login_favicon.png",
+    "description": "大夏学堂在线教学平台",
     "color": "from-red-500 to-red-700"
   },
   {
-    "title": "oLaf黑猫の太鼓国行歌曲搜索系统",
-    "url": "https://olaf5103.cn:765/taiko/songs",
+    "title": "华东师大•旧闻缓递",
+    "url": "https://times.myecnu.org",
     "category": "工具",
-    "icon": "https://olaf5103.cn:765/favicon.ico",
-    "description": "黑猫突发奇想自己来定义并设计的一套可搜索BPM和流速的太鼓的国行歌曲搜索系统!",
+    "icon": "https://times.myecnu.org/favicon.ico",
+    "description": "当下最新最热通知",
     "color": "from-indigo-500 to-violet-600"
   },
   {
-    "title": "OurTaiko CDN",
-    "url": "https://cdn.ourtaiko.org/",
-    "category": "开发",
-    "icon": "Google",
-    "description": "一些有用的CDN",
-    "color": "from-green-400 to-green-600"
-  },
-  {
-    "title": "TJA-Tatsujin",
-    "url": "https://taiko.vanillaaaa.org/",
+    "title": "虚拟排课",
+    "url": "https://plus.myecnu.org",
     "category": "工具",
-    "icon": "Google",
-    "description": "官谱下载，数据源为ESE",
-    "color": "from-green-400 to-green-600"
-  },
-  {
-    "title": "Taiko Wiki",
-    "url": "https://taiko.wiki/",
-    "category": "工具",
-    "icon": "https://taiko.wiki/assets/img/logo_mobile.webp",
-    "description": "韩国人做的太鼓维基，数据很全，右上角开启实验版功能后可以预览播放谱面",
-    "color": "from-green-400 to-green-600"
-  },
-  {
-    "title": "Donder Assistant",
-    "url": "https://dafrok.github.io/donder-assistant",
-    "category": "工具",
-    "icon": "Google",
-    "description": "谱面难度分析、定数表、特训模式",
-    "color": "from-green-400 to-green-600"
-  },
-  {
-    "title": "TJARenderer",
-    "url": "https://github.com/jack9966qk/TJARenderer",
-    "category": "开发",
-    "icon": "Google",
-    "description": "A web based renderer of rhythm game charts in the TJA format.",
-    "color": "from-green-400 to-green-600"
-  },
-  {
-    "title": "TaikøNauts 官方博客",
-    "url": "https://docs.taiko.team/blog",
-    "category": "模拟器",
-    "icon": "https://taiko.team/icon.png",
-    "description": "TaikøNauts 的官方博客，页面下方可以加入 Discord 获取模拟器",
-    "color": "from-green-400 to-green-600"
-  },
-  {
-    "title": "OpenTaiko 官网",
-    "url": "https://opentaiko.github.io/",
-    "category": "模拟器",
-    "icon": "https://opentaiko.github.io/favicon.ico",
-    "description": "OpenTaiko 的官方网站",
-    "color": "from-green-400 to-green-600"
-  },
-  {
-    "title": "YataiDON",
-    "url": "https://github.com/Yonokid/YataiDON",
-    "category": "模拟器",
-    "icon": "",
-    "description": "TJADB 的成员 Yonokid 开发的太鼓模拟器，官方频道在 TJADB 频道内",
-    "color": "from-green-400 to-green-600"
-  },
-  {
-    "title": "PyTaiko",
-    "url": "https://github.com/Yonokid/PyTaiko",
-    "category": "模拟器",
-    "icon": "",
-    "description": "TJADB 的成员 Yonokid 开发的太鼓模拟器，好像转生为 YataiDON 了",
-    "color": "from-green-400 to-green-600"
+    "icon": "https://times.myecnu.org/favicon.ico",
+    "description": "ECNU 学期开课表索引与排课",
+    "color": "from-indigo-500 to-violet-600"
   }
 ]

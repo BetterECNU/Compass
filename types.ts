@@ -11,6 +11,6 @@ export interface LinkItem {
 export enum CategoryType {
   ALL = 'All',
   TOOL = '工具',
-  DEVELOPMENT = '开发',
-  SIMULATOR = '模拟器',
+  DEVELOPER = '开源组织',
+  OFFICIAL = '官方',
 }
