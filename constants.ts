@@ -44,4 +44,6 @@ function shuffleArray<T>(array: T[]): T[] {
   return shuffled;
 }
 
-export const MOCK_LINKS: LinkItem[] = shuffleArray(mappedLinks);
+// Separate featured and regular links
+export const FEATURED_LINKS: LinkItem[] = mappedLinks.filter(link => link.featured);
+export const MOCK_LINKS: LinkItem[] = shuffleArray(mappedLinks.filter(link => !link.featured));

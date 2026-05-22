@@ -2,9 +2,10 @@ import React, { useState, useEffect, useMemo } from 'react';
 import Background from './components/Background';
 import LinkCard from './components/LinkCard';
 import SearchBar from './components/SearchBar';
+import OrganizationShowcase from './components/OrganizationShowcase';
 import { ThemeProvider } from './ThemeContext';
 import ThemeToggle from './components/ThemeToggle';
-import { MOCK_LINKS, CATEGORIES } from './constants';
+import { MOCK_LINKS, FEATURED_LINKS, CATEGORIES } from './constants';
 import { CategoryType } from './types';
 import { Compass, Grid, Layers, Cpu, Clock, GraduationCap, Map } from 'lucide-react';
 
@@ -69,10 +70,9 @@ const App: React.FC = () => {
             <h1 className="bg-clip-text bg-gradient-to-b from-slate-900 dark:from-white via-slate-800 dark:via-white to-slate-500 dark:to-slate-400 mb-4 font-display font-bold text-transparent text-5xl md:text-7xl tracking-tight">
               {greeting}, Student.
             </h1>
-            <p className="flex justify-center items-center gap-2 mx-auto max-w-2xl font-light text-slate-500 dark:text-slate-400 text-lg md:text-xl">
-              <span className="bg-cyan-500 rounded-full w-2 h-2 animate-pulse"></span>
-              Managed by BetterECNU
-            </p>
+            {FEATURED_LINKS.length > 0 && (
+              <OrganizationShowcase organizations={FEATURED_LINKS} mounted={mounted} />
+            )}
           </div>
 
           {/* Search */}

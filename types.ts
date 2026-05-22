@@ -6,11 +6,12 @@ export interface LinkItem {
   icon: string; // Lucide icon name or custom icon URL
   description: string;
   color: string;
+  featured?: boolean; // For organization/showcase items
 }
 
 export enum CategoryType {
   ALL = 'All',
   TOOL = '工具',
-  DEVELOPER = '开源组织',
+  FRIEND = '友链',
   OFFICIAL = '官方',
 }

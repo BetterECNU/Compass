@@ -1,19 +1,19 @@
 [
   {
-    "title": "BetterECNU GitHub",
+    "title": "BetterECNU",
     "url": "https://github.com/BetterECNU",
-    "category": "开源组织",
     "icon": "https://avatars.githubusercontent.com/u/229353891?s=512",
-    "description": "BetterECNU 组织的 GitHub",
-    "color": "from-gray-700 to-gray-900"
+    "description": "目的是让 ECNU 变得更好",
+    "color": "from-gray-700 to-gray-900",
+    "featured": true
   },
   {
-    "title": "ECNU-minus GitHub",
+    "title": "ECNU Minus",
     "url": "https://github.com/ECNU-minus",
-    "category": "开源组织",
     "icon": "https://avatars.githubusercontent.com/u/225039193?s=512",
-    "description": "ECNU-minus 组织的 GitHub",
-    "color": "from-gray-700 to-gray-900"
+    "description": "共而饮水，舟而创人",
+    "color": "from-gray-700 to-gray-900",
+    "featured": true
   },
   {
     "title": "ECNU·课栈",
